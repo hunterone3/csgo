@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>AZLK</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="tophead" class="header">
+            <ul>
+                <p class="zag">cs:go</p>
+                <li style="float:right"><div class="borgarmenu">
+                    <a id="openclick" href="#" onclick=" displaybox()"><img src="menu-button.png" alt="menu"></a>
+                </div></li>
+            </ul>  
+            <div class="drop-form" id="box">
+                <div class="togle">
+                    <a id="closeclick" href="#" onclick="nonebox()" class="close"><img src="close-button.png" alt=""></a>
+                </div>
+                <p> Имя:<input class="name fulllengh" type="name"></p>
+                <br>
+                <p>Никнейм:<input class="surname fulllengh" type="text"></p>
+                <br>
+                <p> Год рождения:</p>
+                <p><input class="datelive" type="date"></p>
+                <br>
+                <p> Почта: </p>
+                <p><input type="email " placeholder="xxxxxx@mail"></p>
+                <div class="password">
+                <br>
+                    Пароль:
+                    <input class="pass" type="password" name="password">
+                </div>
+                <div class="sen">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main">
+            
+            <section id="sect" class="sect">
+                <p>
+                        Counter-Strike: Global Offensive (CS:GO; с англ. — «Контрудар: глобальное наступление») — многопользовательская компьютерная игра, разработанная компаниями Valve и Hidden Path Entertainment. Последняя игра в серии игр Counter-Strike. Выпуск игры для персональных компьютеров на операционных системах Windows и macOS, также игровых приставках Xbox 360 и PlayStation 3 состоялся 21 августа 2012 года. Версия игры для Linux была выпущена в 2014 году, а в 2016 году игра, в рамках программы обратной совместимости, стала доступна на Xbox One. В 2018 году была выпущена бесплатная версия с возможностью игры с реальными игроками и с ботами. Позже, в декабре того же года игра стала полностью бесплатной.
+                </p>
+                <br>
+                <p>
+                        Как и в остальных играх серии, в Counter-Strike: Global Offensive игроки делятся на две команды: террористов и подразделений специального назначения, после чего сражаются друг с другом в серии раундов, по результатам которых определяется команда-победитель. Игроку доступны разные режимы игры, меняющие условия поединка между командами, а также игра с ботами.
+                </p>
+                <br>
+                <p>
+                        Как и предыдущие игры серии, Counter-Strike: Global Offensive является трёхмерным многопользовательским шутером от первого лица, в котором игроки распределяются по двум командам и сражаются друг с другом. В игре представлены две команды: террористы и спецназ, а также два сценария игры: разминирование бомбы и спасение заложника. В первом сценарии игроки, играющие за команду террористов, должны заминировать бомбу в одном из нескольких точек закладки, а спецназ — успешно её разминировать. Во втором сценарии игрокам из команды террористов необходимо не дать противоборствующей команде спасти заложников, которых они охраняют.
+                </p>
+                            <div class="slideshow-container" id="#slider">
+                
+                                <div class="mySlides fade">
+                    
+                                    <img src="s3.jpg">
+                                    <div class="text">de_mirage </div>
+                    
+                                </div>
+                    
+                                <div class="mySlides fade">
+                    
+                                    <img src="s2.jpg">
+                                    <div class="text">de_dust</div>
+                                </div>
+                    
+                                <div class="mySlides fade">
+                    
+                                    <img src="s1.jpg">
+                                    <div class="text">огненный змей</div>
+                                </div>
+                                
+                    
+                    
+                                <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+            </section>
+        </main>
+        <footer>    
+                <p class="foot">Poyner Modul</p>
+            
+        </footer>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
